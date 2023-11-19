@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader">{
-  &quot;useNewFormat&quot;: true
-}</component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -17,21 +17,19 @@
       <config projectName="pr1" targetName="t2_t2_1" />
       <config projectName="pr1" targetName="t1_t3" />
       <config projectName="pr1" targetName="t1_t4" />
-      <config projectName="pr1" targetName="main" />
       <config projectName="pr1" targetName="t1_t1" />
       <config projectName="pr1" targetName="t1_t2" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4181987-8bed-4840-85a3-d0d6f88f54db" name="Changes" comment="">
+    <list default="true" id="ddb74edd-3e24-48c2-819d-bd232f3e6e7e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t2/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/t2/t2_t2_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/t2/t2_t2_2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,30 +44,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;SvytDola&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="82872cea-8dea-4ad1-9478-3f7b6c835093" />
-        <option name="url" value="https://github.com/SvytDola/pr1.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
-    <option name="minorVersion" value="1.5" />
+    <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2V3vHeWrQx8q0bbqDaNSOFCVZxG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2YOLyB9rdfgTGMuAr4L4GhD9MRm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,30 +67,18 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/undoh/dev/study/tgu/5-semester/multithreaded-programming/mnogopotochka/t2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
-    "structure.view.defaults.are.configured": "true",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\undoh\dev\study\tgu\5-semester\multithreaded-programming\mnogopotochka\t2" />
-      <recent name="C:\Users\undoh\CLionProjects\pr1" />
-    </key>
-  </component>
-  <component name="RunManager" selected="CMake Debug.pr1">
-    <configuration name="pr1" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pr1" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pr1" RUN_TARGET_NAME="main">
+  <component name="RunManager" selected="CMake Application.t2_t2_2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="t1_t1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pr1" TARGET_NAME="t1_t1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pr1" RUN_TARGET_NAME="t1_t1">
@@ -150,15 +121,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t2_t2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pr1" TARGET_NAME="t2_t2.c" CONFIG_NAME="t2_t2.c">
-      <option name="sourceFile" value="t2\t2_t2.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="C/C++ File.t2_t2.c" />
-      <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.t1_t1" />
       <item itemvalue="CMake Application.t1_t2" />
       <item itemvalue="CMake Application.t1_t3" />
@@ -167,81 +130,28 @@
       <item itemvalue="CMake Application.t2_t1" />
       <item itemvalue="CMake Application.t2_t2_1" />
       <item itemvalue="CMake Application.t2_t2_2" />
-      <item itemvalue="CMake Debug.pr1" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="CMake Debug.pr1" />
-        <item itemvalue="C/C++ File.t2_t2.c" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4181987-8bed-4840-85a3-d0d6f88f54db" name="Changes" comment="" />
-      <created>1694077494966</created>
+      <changelist id="ddb74edd-3e24-48c2-819d-bd232f3e6e7e" name="Changes" comment="" />
+      <created>1700391931277</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694077494966</updated>
-      <workItem from="1694077499339" duration="5245000" />
-      <workItem from="1694086099358" duration="10000" />
-      <workItem from="1694086129692" duration="39000" />
-      <workItem from="1694086182738" duration="14000" />
-      <workItem from="1694086253256" duration="254000" />
-      <workItem from="1694755476069" duration="1255000" />
-      <workItem from="1694756762194" duration="84000" />
-      <workItem from="1694756862632" duration="619000" />
-      <workItem from="1695189878567" duration="276000" />
-      <workItem from="1695285964131" duration="310000" />
-      <workItem from="1695286769841" duration="3024000" />
-      <workItem from="1695291687977" duration="116000" />
-      <workItem from="1695292662862" duration="69000" />
-      <workItem from="1695292739622" duration="107000" />
-      <workItem from="1696501020785" duration="1238000" />
-      <workItem from="1698915564888" duration="2802000" />
-      <workItem from="1699109256183" duration="124000" />
-      <workItem from="1699109725427" duration="2711000" />
-      <workItem from="1699112472915" duration="195000" />
-      <workItem from="1699112686158" duration="73000" />
-      <workItem from="1699112773587" duration="5641000" />
-      <workItem from="1700131769270" duration="1056000" />
-      <workItem from="1700133199520" duration="50000" />
-      <workItem from="1700133264451" duration="269000" />
-      <workItem from="1700133665410" duration="1645000" />
-      <workItem from="1700390685859" duration="290000" />
-      <workItem from="1700390983716" duration="207000" />
+      <updated>1700391931277</updated>
+      <workItem from="1700391932543" duration="2174000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="executable:docker" />
-    <option featureType="dependencySupport" implementationName="executable:kubectl" />
-  </component>
   <component name="VCPKGProject">
     <isAutomaticEditVcpkgJson value="false" />
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticFoundErrors value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/task1.cpp</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/task2.cpp</url>
-          <line>87</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
