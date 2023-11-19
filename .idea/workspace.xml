@@ -28,7 +28,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4181987-8bed-4840-85a3-d0d6f88f54db" name="Changes" comment="" />
+    <list default="true" id="a4181987-8bed-4840-85a3-d0d6f88f54db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t2/t2_t2_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/t2/t2_t2_2.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +90,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
+    "settings.editor.selected.configurable": "CPPToolchains",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,14 +101,9 @@
       <recent name="C:\Users\undoh\CLionProjects\pr1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="CMake Debug.pr1">
     <configuration name="pr1" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pr1" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pr1" RUN_TARGET_NAME="main">
       <method v="2">
@@ -209,6 +209,8 @@
       <workItem from="1700133199520" duration="50000" />
       <workItem from="1700133264451" duration="269000" />
       <workItem from="1700133665410" duration="1645000" />
+      <workItem from="1700390685859" duration="290000" />
+      <workItem from="1700390983716" duration="207000" />
     </task>
     <servers />
   </component>
