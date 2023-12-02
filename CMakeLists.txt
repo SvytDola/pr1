@@ -21,3 +21,6 @@ add_executable(t2_t1 t2/t2_t1.cpp)
 add_executable(t2_t2_1 t2/t2_t2.cpp)
 add_executable(t2_t2_2 t2/t2_t2_2.cpp)
 add_executable(t2_t2_3 t2/t2_t2_3.cpp)
+
+#task 3
+add_executable(t3_t1 t3/task1.cpp)
