@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "openmp-use-default-none"
 #include <iostream>
 #include <omp.h>
 
@@ -19,7 +21,7 @@ double trapezoidal(double a, double b, int n) {
     for (int i = 1; i < n; i++) {
         double x = a + i * h;
         sum += f(x);
-        std::cout << "Поток " << omp_get_team_num() << "выполнил функцию трапеций" << std::endl;
+        std::cout << "Поток " << omp_get_thread_num() << "выполнил функцию трапеций" << std::endl;
     }
     sum += (f(a) + f(b)) / 2.0;
     return h * sum;
@@ -33,7 +35,7 @@ double simpson(double a, double b, int n) {
     for (int i = 1; i < n; i++) {
         double x = a + i * h;
         sum += (i % 2 == 0) ? 2 * f(x) : 4 * f(x);
-        std::cout << "Поток " << omp_get_team_num() << "выполнил функцию симпсона" << std::endl;
+        std::cout << "Поток " << omp_get_thread_num() << "выполнил функцию симпсона" << std::endl;
     }
     return h * sum / 3.0;
 }
@@ -66,3 +68,4 @@ int main() {
 
     return 0;
 }
+#pragma clang diagnostic pop
