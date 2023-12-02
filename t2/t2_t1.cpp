@@ -30,7 +30,7 @@ int main() {
 
     // Определение количества ядер процессоров
     int numProcessors = omp_get_max_threads() / 2;
-    printf("Количество ядер процессоров: %d\n", numProcessors);
+    printf("Количество ядер процессора: %d\n", numProcessors);
 
     return 0;
 }
